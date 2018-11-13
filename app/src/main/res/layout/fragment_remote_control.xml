@@ -25,19 +25,9 @@
         android:textSize="20dp"
         android:textColor="#cccccc"/>
     <TableRow android:layout_weight="1">
-        <Button
-            android:id="@+id/fragment_remote_control_zeroButton"
-            style="@style/RemoteName"
-            android:text="0" />
-
-        <Button
-            android:id="@+id/fragment_remote_control_oneButton"
-            style="@style/RemoteName"
-            android:text="1" />
-
-        <Button
-            android:id="@+id/fragment_remote_control_enterButton"
-            style="@style/RemoteName"
-            android:text="Enter" />
+        <include android:layout_weight="1" layout="@layout/button_row" />
+        <include android:layout_weight="1" layout="@layout/button_row" />
+        <include android:layout_weight="1" layout="@layout/button_row" />
+        <include android:layout_weight="1" layout="@layout/button_row" />
     </TableRow>
 </TableLayout>
